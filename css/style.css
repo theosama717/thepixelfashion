@@ -764,3 +764,186 @@ footer p {
         gap: 3em;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********* cart ************  */
+
+
+
+.cart-container .heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0;
+}
+
+.cart-container .heading h2 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.cart-container {
+    padding: 0 1em;
+}
+
+.cart-container a {
+    color: black;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+
+.cart table {
+    width: 100%;
+}
+
+.cart .img {
+    width: 80px;
+    border: 1px solid #ccc;
+}
+
+.cart th {
+    font-size: 0.7rem;
+    color: #888;
+    font-weight: 600;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+}
+
+.cart th:last-child, .cart td:last-child {
+    text-align: right;
+}
+
+.cart table {
+    border-collapse: collapse;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3em;
+}
+
+.cart td, .cart th {
+    text-align: left;
+}
+
+.cart table .product-td {
+    display: flex;
+    gap: 1em;
+    padding: 2em 0;
+}
+
+
+.cart .product-info h3 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cart .product-info p {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 1em;
+}
+
+
+.cart .buttons i {
+    font-size: 0.8rem;
+}
+
+.cart .buttons button {
+    background-color: transparent;
+    border: none;
+    margin: 0 0.5em;
+}
+
+.cart input {
+    width: 30px;
+    border: none;
+    outline: none;
+}
+
+
+.cart .fa-minus {
+    margin-right: 1.5em;
+}
+
+.cart .fa-trash {
+    margin-left: 2em;
+}
+
+.cart-price {
+    font-size: 1rem;
+}
+
+.product-info {
+    display: none;
+}
+
+.cart-container .total-con {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-container .total {
+    width: 400px;
+    text-align: right;
+}
+
+.cart-container .total p {
+    font-size: 1.3rem;
+    margin-bottom: 1em;
+}
+
+.cart-container .total span {
+    margin-left: 2em;
+}
+
+.cart-container p.small-cart-text {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.cart-container .dark-btn {
+    margin-top: 1em;
+    width: 100%;
+}
+
+
+@media all and (min-width: 700px) {
+    .product-info {
+        display: flex;
+        flex-direction: column;
+    }
+}
